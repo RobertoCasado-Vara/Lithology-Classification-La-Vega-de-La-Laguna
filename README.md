@@ -1,1 +1,14 @@
-# TED2021-129695A-I00
+# Lithology Classification in Volcano-Fluvial Deposits
+This repository contains the code and data for the paper "A Comparative Machine Learning Study for Lithology Classification in Volcano-Fluvial Deposits from La Vega de La Laguna (Tenerife Canary Islands): Application to Core Lithology Log Using All-Elements and Major Elements Approach" by Roberto Casado-Vara, Ramón Casillas Ruiz, M. Candelaria Martín-Luis, Blas L. Valero-Garcés, and Margarita Jambrina-Enríquez.
+
+# Abstract
+Lithofacies analysis is essential for sequence stratigraphy as it provides crucial insights into facies identification, facies associations, stratigraphic relationships and paleoenvironmental reconstructions. The use of X-ray fluorescence (XRF) scanning techniques provides large elemental geochemical datasets that could help to improve our understanding of depositional processes. This study explores two common methods for sedimentary stratigraphic analysis via XRF: major elements analysis and all-elements analysis. Major elements analysis quickly identifies lithofacies, while all-elements analysis provides detailed chemical composition breakdowns, particularly through trace elements. Although methods for lithology classification with machine learning techniques are available, there are currently limited options for open-source alternatives with the choice of major elements or all-elements analysis. This study presents an open-source Python code for lithofacies classification by comparing major elements and all-elements analysis methods using established machine learning algorithms. The AdaBoost algorithm achieved high performance with both methodologies when trained on a   fluvial-lacustrine-sedimentary sequence from a volcanic basin in Tenerife, Canary Islands. In addition, we applied the trained algorithm to two other volcano-sedimentary sequences in the same basin using a transfer learning strategy, achieving an average accuracy of 80%. However, transfer learning did not work for these two new sequences due to the presence of a basaltic level in addition to the fluvial-lacustrine-facies. Additionally, we conducted a study on the performance for each methodology using ML and explainable artificial intelligence (XAI) algorithms. Our results demonstrate that the AdaBoost algorithm accurately classifies lithofacies regardless of the methodology employed if the sequence only includes fluvial-lacustrine-sedimentary facies. The selected algorithm has bad performance in classifying lithofacies using transfer learning strategy when volcanic basalt facies occur in the same sequence.
+
+# Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+# Contact
+For any questions or issues, please contact Roberto Casado-Vara at rccasado@ubu.es.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
