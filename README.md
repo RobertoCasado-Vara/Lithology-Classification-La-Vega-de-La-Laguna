@@ -9,6 +9,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 # Contact
 For any questions or issues, please contact Roberto Casado-Vara at rccasado@ubu.es.
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
