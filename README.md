@@ -1,4 +1,4 @@
-# Lithology Classification in Volcano-Fluvial Deposits
+# Lithology Classification in La Vega de La Laguna
 This repository contains the code and data for the paper "A Comparative Machine Learning Study for Lithology Classification in Volcano-Fluvial Deposits from La Vega de La Laguna (Tenerife Canary Islands): Application to Core Lithology Log Using All-Elements and Major Elements Approach" by Roberto Casado-Vara, Ramón Casillas Ruiz, M. Candelaria Martín-Luis, Blas L. Valero-Garcés, and Margarita Jambrina-Enríquez.
 
 # Abstract
